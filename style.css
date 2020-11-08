@@ -1,21 +1,99 @@
+/* 
+html {
+    box-sizing: border-box;
+} */
+body {
+    font-family: Raleway;
+    margin: auto 0;
+    /* min-height: 100vh; */
+  
+ 
+    /* background-size: cover; to fit the screen, only images?*/
+	background-color: #F1E09D;
+}
 .zone {
     padding:30px 50px;
-    margin:40px 60px;
-    cursor:pointer;
-    display:inline-block;
-    color:#FFF;
-    font-size:2em;
-    border-radius:4px;
+    /* display:inline-block; */
+    /* font-size: 0.8em;  */
+    
+
+   /*  cursor:pointer;
+     color:#FFF;
+    font-size:2em; font size to be equal to 5 times containing element which is  20 pixels
+   border-radius:4px; 
     border:1px solid #bbb;
-    transition: all 0.3s linear;
+    transition: all 0.3s linear;*/
+}
+/* TITLE */
+.green {
+    display: flexbox;
+    
+}
+.active {
+    font-style: italic;
+    /* font-size: 0.7em; */
 }
 
-.zone:hover {
+h1{
+    /* font-size: 2.75rem; 2.75rem is 44px (16x2.75) 16px is the min  font on mobile devices */
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+/* Big chart */
+.container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* gap:10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    grid-template-rows: 1fr 1fr;
+    justify-items: end;
+    align-items: end; */
+}
+/* Grid panel */
+.grid-wrapper {
+    display: grid;
+  
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  
+   gap: 20px;
+}
+
+/* background transparant, change card size? margin? 
+.box {
+    make charts smaller 
+    padding:130px;
+    margin: 20px;
+}
+*/
+/* each chart width of 100 using css class of charts so it fill out the entire grid card. Each div has a chart id, all children of charts want same sizze widt 100% */
+
+.box > # {
+    width: 100%;
+}
+
+/* Footer */
+
+
+
+
+
+
+
+/* .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
+} */
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
