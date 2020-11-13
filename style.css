@@ -6,18 +6,17 @@ body {
     font-family: Raleway;
     margin: auto 0;
     /* min-height: 100vh; */
-  
- 
     /* background-size: cover; to fit the screen, only images?*/
-	background-color: #F1E09D;
+    background-color: #fff;
+    
 }
 .zone {
-    padding:30px 50px;
+    padding: 30px 50px;
+    border-top: 1px solid #DADCE0;
+    border-bottom: 1px solid #DADCE0;
     /* display:inline-block; */
     /* font-size: 0.8em;  */
-    
-
-   /*  cursor:pointer;
+    /*  cursor:pointer;
      color:#FFF;
     font-size:2em; font size to be equal to 5 times containing element which is  20 pixels
    border-radius:4px; 
@@ -51,7 +50,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     /* gap:10px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     grid-template-rows: 1fr 1fr;
@@ -60,12 +59,21 @@ h1{
 }
 /* Grid panel */
 .grid-wrapper {
+    
     display: grid;
-  
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-  
-   gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    border-top: 1px solid #DADCE0;
+    border-bottom: 1px solid #DADCE0;
+    margin: 0 -16px;
+    background-color: #DADCE0;
 }
+/*.vl {
+    border-left: 6px dashed;
+    height: 300px;
+    position: absolute;
+   
+}*/
 
 /* background transparant, change card size? margin? 
 .box {
@@ -74,76 +82,26 @@ h1{
     margin: 20px;
 }
 */
-/* each chart width of 100 using css class of charts so it fill out the entire grid card. Each div has a chart id, all children of charts want same sizze widt 100% */
+/* each chart width of 100 using css class of charts so it fill out the entire grid card. Each div has a chart id, all children of charts want same sizze widt 100% 
 
 .box > # {
     width: 100%;
 }
-
+    */
+.box {
+    background-color: #fff;
+    
+}
+.fp-item {
+    
+  
+    background-color: #efefef;
+}
+.zone {
+    /*background-color: #fff;*/
+    
+}
 /* Footer */
 
 
 
-
-
-
-
-/* .zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-} */
-
-/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
-/***********************************************************************
- *  Green Background
- **********************************************************************/
-.green{
-    background: #56B870; /* Old browsers */
-    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
-    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
-}
-
-/***********************************************************************
- *  Red Background
- **********************************************************************/
-.red{
-    background: #C655BE; /* Old browsers */
-    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
-    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
-}
-
-/***********************************************************************
- *  Yellow Background
- **********************************************************************/
-.yellow{
-    background: #F3AAAA; /* Old browsers */
-    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
-    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
-}
-
-/***********************************************************************
- *  Blue Background
- **********************************************************************/
-.blue{
-    background: #7abcff; /* Old browsers */
-    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
-    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
-}
