@@ -1,107 +1,83 @@
-/* 
-html {
+/*reset*/
+*{
     box-sizing: border-box;
-} */
-body {
-    font-family: Raleway;
-    margin: auto 0;
-    /* min-height: 100vh; */
-    /* background-size: cover; to fit the screen, only images?*/
-    background-color: #fff;
-    
-}
-.zone {
-    padding: 30px 50px;
-    border-top: 1px solid #DADCE0;
-    border-bottom: 1px solid #DADCE0;
-    /* display:inline-block; */
-    /* font-size: 0.8em;  */
-    /*  cursor:pointer;
-     color:#FFF;
-    font-size:2em; font size to be equal to 5 times containing element which is  20 pixels
-   border-radius:4px; 
-    border:1px solid #bbb;
-    transition: all 0.3s linear;*/
-}
-/* TITLE */
-.green {
-    display: flexbox;
-    
-}
-.active {
-    font-style: italic;
-    /* font-size: 0.7em; */
 }
 
-h1{
-    /* font-size: 2.75rem; 2.75rem is 44px (16x2.75) 16px is the min  font on mobile devices */
-    text-transform: uppercase;
+img {
+    /*Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width*/
+    display: block; 
+    width:100%;
+    height:auto;
 }
-@media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 0.5em;
-        padding: 0;
+html {
+    --color: #d0afcf;
+}
+/*components*/
+data-widget {
+    /*custom elements are inline by default*/
+        display:block;
+}
+data-widget h2 {
+    padding: 10px 0;
+}
+data-widget p {
+    margin-top:10px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+/*context*/
+
+body {
+    width: 98%;
+    max-width: 1100px;
+    margin-right:auto;
+    margin-left: auto;
+    background-color: var(--color);
+}
+main {
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-bottom: 80px;
+}
+section h1 {
+    font-family: sans-serif;
+    font-size: 16px;
+    color:white;
+}
+@media (max-width: 599px){
+    main data-widget {
+        max-width: 400px;
+    }
+}
+@media (min-width: 600px){
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main section {
+        width: 50%;
+        padding: 10px;
+    }
+}
+@media (max-width: 899px){
+    main section {
+        margin-top: 40px;
     }
 }
 
-/* Big chart */
-.container {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* gap:10px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-    grid-template-rows: 1fr 1fr;
-    justify-items: end;
-    align-items: end; */
+@media (min-width: 900px){
+    main section {
+        width: 25%;
+    }
+    section.area-four {
+        order: initial;
+    }
+    main section:not(:last-of-type){
+        border-right: 2px dotted black;
+    }
+    main data-widget {
+        border-top: 2px dotted black;
+        margin-top: 10px;
+    }
 }
-/* Grid panel */
-.grid-wrapper {
-    
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
-    border-top: 1px solid #DADCE0;
-    border-bottom: 1px solid #DADCE0;
-    margin: 0 -16px;
-    background-color: #DADCE0;
-}
-/*.vl {
-    border-left: 6px dashed;
-    height: 300px;
-    position: absolute;
-   
-}*/
-
-/* background transparant, change card size? margin? 
-.box {
-    make charts smaller 
-    padding:130px;
-    margin: 20px;
-}
-*/
-/* each chart width of 100 using css class of charts so it fill out the entire grid card. Each div has a chart id, all children of charts want same sizze widt 100% 
-
-.box > # {
-    width: 100%;
-}
-    */
-.box {
-    background-color: #fff;
-    
-}
-.fp-item {
-    
-  
-    background-color: #efefef;
-}
-.zone {
-    /*background-color: #fff;*/
-    
-}
-/* Footer */
-
-
-

@@ -1,0 +1,2 @@
+C:\Users\Aneta.Stojanowska\Desktop\infographic\infographic11\obj\x86\Debug\infographic11_0.2.vbprojAssemblyReference.cache
+C:\Users\Aneta.Stojanowska\Desktop\infographic\infographic11\obj\x86\Debug\infographic11_0.2.vbproj.CoreCompileInputs.cache

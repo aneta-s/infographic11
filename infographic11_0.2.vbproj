@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{F6DFA74E-8129-4AAA-9CB9-23E1A4F40095}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>infographic11_0._2</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="script.js" />
+    <Content Include="style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\main" />
+    <None Include=".git\objects\06\22acf0d5f3e198fca3931d722a5f49eeaf250e" />
+    <None Include=".git\objects\0e\ac20b880e8e47e6570c267aab8da3ec706c666" />
+    <None Include=".git\objects\0f\720a8fc597c3d19c92d1493bfd18978374ed29" />
+    <None Include=".git\objects\13\1a8f7cf36c16399b67007bc2e9f5b6d933d381" />
+    <None Include=".git\objects\19\0dc2a3fc1953b0f3e9de8c45d21069106e5247" />
+    <None Include=".git\objects\19\5dbf247952c05bc4d05c3245cbd2260e178244" />
+    <None Include=".git\objects\42\4010dbe7867e5b6c92f1eb8897d3ab2f0dd449" />
+    <None Include=".git\objects\44\fa3597e085a7e5cdcddcded6bdfc7ec5f8d7b0" />
+    <None Include=".git\objects\62\f62415fcfdc7ffd917d3c78210bdfe81af3eae" />
+    <None Include=".git\objects\6b\6114114f4e89a1f2d0e911ff090e541af1260c" />
+    <None Include=".git\objects\6d\a7cc699ac08267026d9fd0635751aad995c4e8" />
+    <None Include=".git\objects\6d\b6560f8cb003acb77049e96710049b8b5fad88" />
+    <None Include=".git\objects\77\9b55f52a4008dcb14e4cfa933e556f84fb4976" />
+    <None Include=".git\objects\7d\6ee4440a90f3cf0d36d302308f13c90cad239d" />
+    <None Include=".git\objects\98\6ba4457491f955d3cdce11d4fd284585cf4a8d" />
+    <None Include=".git\objects\98\fc570d250cf1020fef7d8424b232c1e53fedab" />
+    <None Include=".git\objects\a5\8923b64a899ff5cb3a9f3e069eb0cbc3263a64" />
+    <None Include=".git\objects\ab\fd9b8567263549d31379d883713e738097c5bd" />
+    <None Include=".git\objects\b3\6af176afc59a73adc6666a2a7659b9b4390f42" />
+    <None Include=".git\objects\b5\da6708177b28b10c227bfffdc7b0f39829ab50" />
+    <None Include=".git\objects\c7\18b8dc41fd3ef3e50c1a09b976f211dbb46a4e" />
+    <None Include=".git\objects\ce\d11b0098824de41e9b53c04397e32d49cfa1e1" />
+    <None Include=".git\objects\d2\da3a74ca256c502efff3d709257f869448c678" />
+    <None Include=".git\objects\ed\c1e138face5024d36952c2d1ee5d863059f7fd" />
+    <None Include=".git\objects\f3\669230a10ccb8d81f43ef40b622b6b649789ee" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\main" />
+    <None Include=".vs\config\applicationhost.config" />
+    <None Include=".vs\infographic11\config\applicationhost.config" />
+    <None Include=".vs\infographic11\v15\.suo" />
+    <None Include=".vs\infographic11\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\infographic11_0.2\v15\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
