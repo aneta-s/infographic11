@@ -1,138 +1,80 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >  
+<head>
+  <title>Layout Master</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="zone green">
+    <p class="anyname active">Arbeidsmarkt annu nu</p>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Infographics 11</title>
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <h1>Meeste kans op het vinden van baanin post corona tijden</h1>
+  </div>
 
-      <section class="area-title">
-          <div class="zone green">
-              <p class="anyname active">Arbeidsmarkt  nu</p>
+  <div class="container zone red">
+    <p>Dit grafiek laat zien de grote grafiek</p>
+    <div class="container">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
 
-              <h1>sfdisuda op het vinden van baanin  corona tijden</h1>
-
-          </div>
-      </section>
-      <section class="area-chart">
-          <div class="container zone red">
-              <p>Dit grafiek laat zien de grote grafiek</p>
-              <div id="piechart"></div>
-          </div>
-      </section>
-      <main>
-          <section class="area-one">
-              
-              <data-widget data-stuff="whatever">
-                  <h1>London is the capital city of England.</h1>
-                  <h2>
-                      Beroepen in
-                      In Totaal
-                  </h2>
-
-                  <p>
-                      It is the most populous city in the United Kingdom,
-                      with a metropolitan area of over 13 million inhabitants. The Paris area is one of the largest population centers in Europe,
-                      with more than 12 million inhabitants.
-                  </p>
-              </data-widget>
-          </section>
-          <section class="area-two">
-             
-              <data-widget data-stuff="whatever">
-                  <h1>Meeste kansrijke beroep alle niveaus lbo mbo hbo</h1>
-                  <h2>Beroep naam</h2>
-                  <ol>
-                      <li>Tweede beroep naam</li>
-                      <li>Derde beroep naam</li>
-                      <li>Vierde beroep naam</li>
-                      <li>Vijfde beroep naam</li>
-                      <li>Zesde beroep naam</li>
-                  </ol>
-
-              </data-widget>
-          </section>
-          <section class="area-three">
-              
-              <data-widget data-stuff="whatever">
-                  <h1>Tokyo is the capital of Japan.</h1>
-                  <h2> 27.1<span>%</span></h2>
-               
-                  <p>
-                      19% chance of wearing a v-nect              </p>
-              </data-widget>
-          </section>
-          <section class="area-four">
-              
-              <data-widget data-stuff="whatever">
-                  <h1>Beroepen opleidingsniveau LBO.</h1>
-             
-                  <figure>
-                      <img src="https://placehold.it/400x600/ffffff" alt="$todo" />
-                     
-                  </figure>
-           
-              </data-widget>
-          </section>
-          <section class="area-five">
-           
-              <data-widget data-stuff="whatever">
-                  <h1>Beroepen opleidingsniveau HBO.</h1>
-
-                  <figure>
-                      <img src="https://placehold.it/400x600/ffffff" alt="$todo" />
-
-                  </figure>
-              </data-widget>
-          </section>
-          <section class="area-six">
-           
-              <data-widget data-stuff="whatever">
-                  <h1>REPORTS OF MOST WORN (DECENT) OUTFIT.</h1>
-                  <h2>
-                      TWENTY- SIX
-                  </h2>
-
-                  <p>
-                      Dark blue jeans, blue button down with white stripes and socks.
-                  </p>
-              </data-widget>
-          </section>
-          <section class="area-seven">
-           
-              <data-widget data-stuff="whatever">
-                  <h1>ARTICLES OF CLOTHING WORN BY MONTH.</h1>
-
-                  <figure>
-                      <img src="https://placehold.it/400x600/ffffff" alt="$todo" />
-
-                  </figure>
-              </data-widget>
-          </section>
-          <section class="area-eight">
-           
-              <data-widget data-stuff="whatever">
-                  <h1>MOST REPORTED OUTFIT.</h1>
-                  <h2>UNDERWEAR</h2>
-  
-                  <p>
-                      Reported 492 times.
-                  </p>
-              </data-widget>
-          </section>
-
-          <div class="zone yellow">Footer</div>
-          <script type="text/javasript" src="script.js">
-          </script>
-          <script type="text/javascript"
-                  src="https://www.gstatic.com/charts/loader.js"></script>
-      </main>
-  </body>
+  <div class="zone blue grid-wrapper">
+    <div class="box one">
+      <h2>TOTAL AANTAL BEROEPEN OP LBO NIVEAU GROEIT</h2>
+      <h1>23953</h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+    
+    </div>
+    <div class="box two">
+      <h2>MEES KANSGENDE BEROEP OP EEN BAAN ALLE NIVEAUS</h2>
+      <h1> Beroepen
+        <h1>naam</h1>
+      </h1>
+      <ol>
+        <li>Tweede beroep naam</li>
+        <li>Derde beroep naam</li>
+        <li>Vierde beroep naam</li>
+        <li>Vijfde beroep naam</li>
+        <li>zESDE beroep naam</li>
+        <li>Zevende beroep naam</li>
+      </ol>
+    </div>
+    <div class="box three">
+      <h2>Chart met beroepennamen op lbo niveau van laag naar hoog </h2>
+      <div class="container">
+        <canvas id="myChart"></canvas>
+      </div>
+      <p>Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+    </div>
+    <div class="box four">    
+      <h2>Chart met beroepennamen op hbo niveau van laag naar hoog </h2>
+      <div class="container">
+        <canvas id="myChart2"></canvas>
+      </div>
+      <p>Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy</p>
+    </div>
+    <div class="box five">
+      <h2>Hier komt nog een titel</h2>
+      <h1>Hier komt iets</h1>
+      <p>Ipsum as their default model text</p>
+      <hr>
+      <h2>Hier komt een anderer titel</h2>
+      <h1>Hier waarschijnlijk ook</h1>
+      <p>Ipsum as their default model text</p>
+      <hr>
+    </div>
+    <div class="box six">
+      <h2>Intermediairs/werkgevers met de meesta aanbod vacatures</h2>
+    
+      <div class="container">
+        <canvas id="myChart"></canvas>
+      </div>
+      <p>Ipsum as their default model text</p>
+    </div>
+  </div>
+  <footer class="zone yellow">made by z => m</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
